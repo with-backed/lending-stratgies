@@ -4,3 +4,6 @@
 [submodule "lib/backed-protocol"]
 	path = lib/backed-protocol
 	url = https://github.com/with-backed/backed-protocol
+[submodule "lib/solmate"]
+	path = lib/solmate
+	url = https://github.com/rari-capital/solmate
