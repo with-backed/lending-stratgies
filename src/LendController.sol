@@ -65,6 +65,7 @@ contract LendController is ERC721TokenReceiver {
         // update lenderBalance based on lenderLoanShares * sale value 
     }
 
+    // used to lend to an exisiting loan
     function lend(
         uint256 loanId,
         uint256 tokenId,
@@ -126,7 +127,7 @@ contract LendController is ERC721TokenReceiver {
         );
     }
 
-    // used to create loan and 
+    // used to create loan and lend to it in one transaction
     function onERC721Received(
         address,
         address from,
